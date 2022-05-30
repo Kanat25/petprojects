@@ -901,3 +901,6 @@ body{
 		padding-left: 15%;
 	} 
 }
+@media (max-width: 440px) {
+	overflow-x:hidden;
+}

@@ -1,0 +1,139 @@
+/*@import url(http://fonts.googleapis.com/css?family=Jost);*/
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+/*@import url(https://fonts.gstatic.com/s/bebasneue/v9/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2);*/
+
+body{
+	background: black;
+}
+
+.cssload-loading {
+	margin-top: 300px;
+	text-align:center;
+	/*margin: 49px auto;*/
+	color: white;
+	font-size: 50px;
+	font-family: "Arvo", sans-serif;
+	animation: cssload-breathe 3.05s ease infinite;
+		-o-animation: cssload-breathe 3.05s ease infinite;
+		-ms-animation: cssload-breathe 3.05s ease infinite;
+		-webkit-animation: cssload-breathe 3.05s ease infinite;
+		-moz-animation: cssload-breathe 3.05s ease infinite;
+}
+
+
+
+@keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 37px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+
+/**/
+
+
+
+
+/*@-o-keyframes cssload-breathe {*/
+/*	0% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+/*	30% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	50% {*/
+/*		letter-spacing: 37px;*/
+/*		font-size: 0;*/
+/*		text-shadow: 0 0 6px white;*/
+/*	}*/
+/*	60% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	100% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+/*}*/
+
+/*@-ms-keyframes cssload-breathe {*/
+/*	0% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+/*	30% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	50% {*/
+/*		letter-spacing: 37px;*/
+/*		font-size: 0;*/
+/*		text-shadow: 0 0 6px white;*/
+/*	}*/
+/*	60% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	100% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+/*}*/
+
+/*@-webkit-keyframes cssload-breathe {*/
+/*	0% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+/*	30% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	50% {*/
+/*		letter-spacing: 37px;*/
+/*		font-size: 0;*/
+/*		text-shadow: 0 0 6px white;*/
+/*	}*/
+/*	60% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	100% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+/*}*/
+
+/*@-moz-keyframes cssload-breathe {*/
+/*	0% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+/*	30% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	50% {*/
+/*		letter-spacing: 37px;*/
+/*		font-size: 0;*/
+/*		text-shadow: 0 0 6px white;*/
+/*	}*/
+/*	60% {*/
+/*		color: transparent;*/
+/*	}*/
+/*	100% {*/
+/*		letter-spacing: 0;*/
+/*		text-shadow: 0 0 1px white;*/
+/*	}*/
+}

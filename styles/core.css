@@ -5,8 +5,11 @@
 }
 
 body {
+    overflow-x: hidden;
     font-family: "Jost";
     background-color: #F29828;
+    background-size: cover;
+    /*background-position: center;*/
 }
 @media (max-width: 1253px) {
     .body{

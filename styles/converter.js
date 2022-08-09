@@ -19,6 +19,9 @@ const convert =(el, target, isTrue) => {
         });
     });
 };
-
 convert(som, usd, 12);
 convert(usd,som );
+
+som.classList.style.fontFamily="Jost"
+
+
